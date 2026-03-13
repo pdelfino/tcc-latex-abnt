@@ -1,6 +1,6 @@
 # TCC em LaTeX com ABNT
 
-![The Librarian](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Bibliotekarien_konserverad_-_Skoklosters_slott_-_97136.tif/lossy-page1-700px-Bibliotekarien_konserverad_-_Skoklosters_slott_-_97136.tif.jpg)
+![The Librarian](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Bibliotekarien_konserverad_-_Skoklosters_slott_-_97136.tif/lossy-page1-960px-Bibliotekarien_konserverad_-_Skoklosters_slott_-_97136.tif.jpg)
 
 *"The Librarian" (1566) by Giuseppe Arcimboldo — [Wikipedia](https://en.wikipedia.org/wiki/The_Librarian_(Arcimboldo))*
 
