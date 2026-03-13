@@ -1,60 +1,45 @@
-# Trabalho de Conclusão de Curso (TCC)
+# TCC em LaTeX com ABNT
 
+![The Librarian](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Bibliotekarien_konserverad_-_Skoklosters_slott_-_97136.tif/lossy-page1-700px-Bibliotekarien_konserverad_-_Skoklosters_slott_-_97136.tif.jpg)
 
+*"The Librarian" (1566) by Giuseppe Arcimboldo — [Wikipedia](https://en.wikipedia.org/wiki/The_Librarian_(Arcimboldo))*
 
-No Brasil, muitos cursos de graduação exigem a elaboração de um Trabalho de Conclusão de Curso (TCC) como requisito para a colação de grau. Além disso, exige-se que o trabalho seja feito dentro dos padrões ABNT (Associação Brasileiras de Normas Técnicas).
+A LaTeX template for Brazilian undergraduate theses (TCC) following ABNT formatting standards.
 
-Ao final da minha graduação, tive que fazer um TCC como requisito para a colação de grau nos cursos de Direito e de Matemática Aplicada da Fundação Getúlio Vargas (FGV). Como estava no programa de dupla-graduação, fiz apenas um trabalho para os dois cursos.
+## About
 
-Por enquanto eu fazia a tarefa, lembro que a linguagem LaTeX junto da biblioteca ABNTeX muito me ajudaram. Eu perdi pouco tempo organizando questões relacionadas à formatação.
+In Brazil, most undergraduate programs require a final capstone project called a *Trabalho de Conclusao de Curso* (TCC), formatted according to ABNT (Associacao Brasileira de Normas Tecnicas) standards. This repository provides the LaTeX source I used for my own TCC, made available so others can use it as a starting point.
 
-Alguns colegas vieram me pedir o meu *source* para usar de referência. Criei esse repositório com o intuito de disponibilizar isso para outras pessoas.
+I completed my TCC as a dual-degree requirement for both **Law** (FGV DIREITO RIO) and **Applied Mathematics** (EMAp/FGV). Since I was in a joint program, a single thesis satisfied both degrees.
 
+Using LaTeX with the [abnTeX2](https://www.abntex.net.br/) package saved a significant amount of time on formatting, letting me focus on content instead of wrestling with margins and citation styles.
 
+> **Note**: The thesis content is in Portuguese. This README is in English for portfolio visibility.
 
-## Link no Overleaf
+## Overleaf Source
 
-O *source* do LaTeX pode ser encontrado no [link do overleaf](https://www.overleaf.com/read/frsdddmzbhnr) . Com esse link é possível visualizar o código. No entanto, não é possível editá-lo.
+The full LaTeX source is available as a read-only Overleaf project:
 
+**[View on Overleaf](https://www.overleaf.com/read/frsdddmzbhnr)**
 
+## Final PDF
 
-## Formato final
+The final version of the thesis is archived in the FGV digital library:
 
-A versão final do trabalho em PDF está na [biblioteca digital da FGV](http://bibliotecadigital.fgv.br/dspace/bitstream/handle/10438/24728/PEDRO%20DELFINO.pdf?sequence=1&isAllowed=y).
+- [PDF (full text)](http://bibliotecadigital.fgv.br/dspace/bitstream/handle/10438/24728/PEDRO%20DELFINO.pdf?sequence=1&isAllowed=y)
+- [Library metadata](http://bibliotecadigital.fgv.br/dspace/handle/10438/24728)
 
-Os metadados da biblioteconomia podem ser encontrados [aqui](http://bibliotecadigital.fgv.br/dspace/handle/10438/24728).
+## Tech Stack
 
-### Avisos
+- **Typesetting**: LaTeX
+- **ABNT compliance**: [abnTeX2](https://www.abntex.net.br/) package
+- **Editor**: Overleaf (cloud) / Emacs (local)
 
-Foi preciso fazer algumas leves alterações no *default* do AbntTex.  Por default, o padrão de citação é numérico. Assim, no texto, temos algo como:
+## Notes
 
-```
-	"Como apontado em [2] , bla bla bla [...]"
-```
+- The default abnTeX2 citation style is numeric (e.g., `[2]`). I switched to author-date format (e.g., `(DELFINO, 2018)`) since it is more conventional in legal academia. This change is straightforward to toggle.
+- Hat tip to the abnTeX2 maintainers -- especially [@laurocesar](https://github.com/laurocesar) -- for building a great tool. The name "abnTeX" (*Absurdas Normas para TeX*) is a well-deserved pun.
 
- E, lá no final do texto, nas referências bibliográficas, temos:
+## Author
 
-```markdown
-[2] DELFINO, Pedro. "Construindo o Primeiro Algoritmo Aprovado no Exame da OAB", 2018.
-```
-
-Esse padrão de citação é pouco comum no Direito e, como o meu trabalho foi direcionado para duas comunidades acadêmicas distintas, achei que era melhor usar o padrão autor-data. Nesse caso teríamos:
-
-```
-	"Como apontado em (DELFINO,2018) , bla bla bla [...]"
-```
-
-Isso pode ser alterado.
-
-
-
-### Agradecimento
-
-Assim como fiz na seção de agradecimentos do meu TCC, aproveito para parabenizar as pessoas responsáveis pelo pacote ABNTex (Absurdas Normas para Tex). Aliás, o trocadilho no nome é muito bom.
-
-Em especial, [@laurocesar](https://github.com/laurocesar). Por sinal, Lauro também tem contribuições para o LexML, outro software que utilizei na pesquisa do meu TCC. Este repositório é só mais um ponteiro no palheiro da *Web* para ajudar na divulgação do bom trabalho desse pessoal.
-
-
-
-
-
+Pedro Delfino -- [GitHub](https://github.com/pdelfino) -- [pedrodelfino.com](https://pedrodelfino.com)
